@@ -1,0 +1,30 @@
+# Environment configuration
+.env
+
+# Composer dependencies
+vendor/
+
+# CodeIgniter writable files
+writable/cache/*
+!writable/cache/index.html
+
+writable/logs/*
+!writable/logs/index.html
+
+writable/session/*
+!writable/session/index.html
+
+writable/uploads/*
+!writable/uploads/index.html
+
+writable/debugbar/*
+
+# Testing files
+phpunit.xml
+.phpunit.result.cache
+
+# Editor and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
